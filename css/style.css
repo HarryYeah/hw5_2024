@@ -144,12 +144,12 @@ header{
     }
 
     /* Hide gallery such that it takes no space on the page */
-    #gallery{
+/*     #gallery{
         visibility: hidden;
-    }
+    } */
     
-    .gallery{
-        display: none;
+    #gallery, .gallery{
+        visibility: hidden;
     }
 
     /* Use pseudo element to add a thumb to the end of second <li> */
